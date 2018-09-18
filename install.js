@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const util = require('util');
 const inquirer = require('inquirer');
 const replace = require('replace-in-file');
 const cmd = require('node-cmd');
