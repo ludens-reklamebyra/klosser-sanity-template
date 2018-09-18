@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "[projectName]"
+    "name": "[appName]"
   },
   "api": {
     "projectId": "[projectId]",
@@ -13,12 +13,17 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@sanity/vision"
+    "@sanity/vision",
+    "@sanity/production-preview"
   ],
   "parts": [
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema.js"
+    },
+    {
+      "implements": "part:@sanity/production-preview/resolve-production-url",
+      "path": "./resolveProductionUrl.js"
     }
   ]
 }

@@ -21,6 +21,7 @@
     "@sanity/default-layout": "0.133.0-realtime-block-editor.b65ceaaa",
     "@sanity/default-login": "0.133.0-realtime-block-editor.b65ceaaa",
     "@sanity/desk-tool": "0.133.0-realtime-block-editor.b65ceaaa",
+    "@sanity/production-preview": "^0.133.0",
     "@sanity/vision": "0.133.0-realtime-block-editor.b65ceaaa",
     "prop-types": "^15.6",
     "react": "^16.2",

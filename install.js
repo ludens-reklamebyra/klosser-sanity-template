@@ -50,6 +50,18 @@ const asyncCMD = util.promisify(cmd.get);
 
     await replace({
       files: 'sanity.json',
+      from: '[appName]',
+      to: answers.name
+    });
+
+    await replace({
+      files: 'resolveProductionUrl.js',
+      from: '[appName]',
+      to: answers.name
+    });
+
+    await replace({
+      files: 'sanity.json',
       from: '[projectId]',
       to: answers.projectId
     });
