@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "sanity-mock"
+    "name": "[projectName]"
   },
   "api": {
-    "projectId": "lkuxr1ks",
+    "projectId": "[projectId]",
     "dataset": "production"
   },
   "plugins": [

@@ -15,8 +15,6 @@
   ],
   "dependencies": {
     "@ludens-reklame/klosser": "^2.0.86",
-    "@ludens-reklame/klosser-theme-deux": "^0.1.1",
-    "@ludens-reklame/klosser-theme-square": "^0.1.1",
     "@sanity/base": "0.133.0-realtime-block-editor.b65ceaaa",
     "@sanity/components": "0.133.0-realtime-block-editor.b65ceaaa",
     "@sanity/core": "0.133.0-realtime-block-editor.b65ceaaa",
@@ -28,7 +26,10 @@
     "react": "^16.2",
     "react-dom": "^16.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "inquirer": "^6.2.0",
+    "replace-in-file": "^3.4.2"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:ludens-reklamebyra/klosser.git"
